@@ -16,7 +16,7 @@ print("After each series, you can choose to continue playing by typing yes or no
 while True:
     while player_score < 3 and computer_score < 3:
         computer = random.choice(['rock', 'paper', 'scissors'])
-        player = input("Enter your move (rock, paper, scissors): ").lower()
+        player = input("Enter your move (rock, paper, scissors):\n ").lower()
 
         # Validate player's input
         while player not in ['rock', 'paper', 'scissors']:
@@ -44,7 +44,7 @@ while True:
         print("The series is a draw!")
 
 # Ask the user if they want to continue playing
-    play_again = input("Play again? (yes/no): ").lower()
+    play_again = input("Play again? (yes/no):\n ").lower()
     if play_again == "yes":
         player_score = 0
         computer_score = 0
