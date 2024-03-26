@@ -55,7 +55,7 @@ while True:
 # Validate player's input
     while player not in ['yes', 'no']:
         print("Invalid choice. Please enter yes or no.")
-        player = input("Play again? (yes/no): ").lower()
+        player = input("Play again? (yes/no): \n").lower()
 
     else:
         print("Thanks for playing!")
