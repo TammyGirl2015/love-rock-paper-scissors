@@ -12,6 +12,7 @@ print("Rock smashes scissors, scissors cuts paper, and paper covers rock.")
 print("The game series ends when either the user or computer wins three rounds first.")
 print("After each series, you can choose to continue playing by typing yes or no, in lowercase.")
 
+#While loop that determines the winner of the round.
 while True:
     while player_score < 3 and computer_score < 3:
         computer = random.choice(['rock', 'paper', 'scissors'])
