@@ -38,6 +38,14 @@ while True:
     else:
         print("The series is a draw!")
 
+# Ask the user if they want to continue playing
+    play_again = input("Play again? (yes/no): ").lower()
+    if play_again == "yes":
+        player_score = 0
+        computer_score = 0
+    else:
+        print("Thanks for playing!")
+        break
     
 
 
