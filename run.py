@@ -35,8 +35,7 @@ while True:
             print("You lose!")
             computer_score += 1
 
-            print(f"Current score: \
-            You {player_score} - Computer {computer_score}")
+        print(f"Current score: You {player_score} - Computer {computer_score}")
 
     # Determine the final winner of the series
     if player_score == 3:
@@ -46,17 +45,15 @@ while True:
     else:
         print("The series is a draw!")
 
-# Ask the user if they want to continue playing
+    # Ask the user if they want to continue playing
     play_again = input("Play again? (yes/no):\n ").lower()
+    while play_again not in ['yes', 'no']:
+        print("Invalid choice. Please enter yes or no.")
+        play_again = input("Play again? (yes/no): \n").lower()
+
     if play_again == "yes":
         player_score = 0
         computer_score = 0
-
-# Validate player's input
-    while player not in ['yes', 'no']:
-        print("Invalid choice. Please enter yes or no.")
-        player = input("Play again? (yes/no): \n").lower()
-
     else:
         print("Thanks for playing!")
         break
