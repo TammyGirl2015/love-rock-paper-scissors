@@ -35,7 +35,8 @@ while True:
             print("You lose!")
             computer_score += 1
 
-        print(f"Current score: You {player_score} - Computer {computer_score}")
+            print(f"Current score: You {player_score} -
+            Computer {computer_score}")
 
     # Determine the final winner of the series
     if player_score == 2:
