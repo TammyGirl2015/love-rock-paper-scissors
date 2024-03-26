@@ -26,16 +26,16 @@ while True:
 
         if player == computer:
             print("It's a tie!")
-        elif (player == "rock" and computer == "scissors") or
-        (player == "paper" and computer == "rock") or
-        (player == "scissors" and computer == "paper"):
+        elif (player == "rock" and computer == "scissors") or \
+             (player == "paper" and computer == "rock") or \
+             (player == "scissors" and computer == "paper"):
             print("You win!")
             player_score += 1
         else:
             print("You lose!")
             computer_score += 1
 
-            print(f"Current score: You {player_score} -
+            print(f"Current score: You {player_score} - \
             Computer {computer_score}")
 
     # Determine the final winner of the series
