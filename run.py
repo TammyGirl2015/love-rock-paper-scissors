@@ -29,3 +29,15 @@ while True:
 
         print(f"Current score: You {player_score} - Computer {computer_score}")
 
+        
+    # Determine the final winner of the series
+    if player_score == 3:
+        print("Congratulations, you win the series!")
+    elif computer_score == 3:
+        print("Computer wins the series!")
+    else:
+        print("The series is a draw!")
+
+    
+
+
