@@ -9,10 +9,11 @@ print("Welcome to rock, paper, scissors.")
 print("To play, enter your choice of rock, paper, or scissors in lowercase.")
 print("The computer will also choose one of the three choices.")
 print("Rock smashes scissors, scissors cuts paper, and paper covers rock.")
-print("The game series ends when either the user or computer wins three rounds first.")
-print("After each series, you can choose to continue playing by typing yes or no, in lowercase.")
+print("The game series ends when the user or computer wins three rounds.")
+print("After each series, you can choose to continue playing.")
+print("Type yes or no, in lowercase, to do this.")
 
-#While loop that determines the winner of the round.
+# While loop that determines the winner of the round.
 while True:
     while player_score < 3 and computer_score < 3:
         computer = random.choice(['rock', 'paper', 'scissors'])
@@ -25,7 +26,9 @@ while True:
 
         if player == computer:
             print("It's a tie!")
-        elif (player == "rock" and computer == "scissors") or (player == "paper" and computer == "rock") or (player == "scissors" and computer == "paper"):
+        elif (player == "rock" and computer == "scissors") or
+        (player == "paper" and computer == "rock") or
+        (player == "scissors" and computer == "paper"):
             print("You win!")
             player_score += 1
         else:
@@ -34,7 +37,6 @@ while True:
 
         print(f"Current score: You {player_score} - Computer {computer_score}")
 
-        
     # Determine the final winner of the series
     if player_score == 2:
         print("Congratulations, you win the series!")
@@ -57,6 +59,3 @@ while True:
     else:
         print("Thanks for playing!")
         break
-    
-
-
