@@ -18,6 +18,11 @@ while True:
         computer = random.choice(['rock', 'paper', 'scissors'])
         player = input("Enter your move (rock, paper, scissors): ").lower()
 
+        # Validate player's input
+        while player not in ['rock', 'paper', 'scissors']:
+            print("Invalid choice. Please enter rock, paper, or scissors.")
+            player = input("Enter your move (rock, paper, scissors): ").lower()
+
         if player == computer:
             print("It's a tie!")
         elif (player == "rock" and computer == "scissors") or (player == "paper" and computer == "rock") or (player == "scissors" and computer == "paper"):
@@ -31,9 +36,9 @@ while True:
 
         
     # Determine the final winner of the series
-    if player_score == 3:
+    if player_score == 2:
         print("Congratulations, you win the series!")
-    elif computer_score == 3:
+    elif computer_score == 2:
         print("Computer wins the series!")
     else:
         print("The series is a draw!")
@@ -43,6 +48,12 @@ while True:
     if play_again == "yes":
         player_score = 0
         computer_score = 0
+
+# Validate player's input
+    while player not in ['yes', 'no']:
+        print("Invalid choice. Please enter yes or no.")
+        player = input("Play again? (yes/no): ").lower()
+
     else:
         print("Thanks for playing!")
         break
