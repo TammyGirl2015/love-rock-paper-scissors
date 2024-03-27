@@ -67,35 +67,34 @@ A screenshot below is attached to display this in both instances.
 The code was run through CI Python Linter. There were no errors at the time of deployment.
 The image below displays this.
 
-![Screenshot 2024-03-27 034221](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/8adc691d-1145-406c-a30e-eb3d8b3cfc1a)
-
-![Screenshot 2024-03-27 034211](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/1896634f-0fed-4e5d-bda8-a5c5d1f11dfb)
+![Screenshot 2024-03-27 034148](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/1b1332f8-7877-445c-8c40-1bce36bbcdca)
 
 ![Screenshot 2024-03-27 034159](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/e5e36b03-114e-40e9-b38e-249ae0736b3b)
 
-![Screenshot 2024-03-27 034148](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/1b1332f8-7877-445c-8c40-1bce36bbcdca)
+![Screenshot 2024-03-27 034211](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/1896634f-0fed-4e5d-bda8-a5c5d1f11dfb)
+
+![Screenshot 2024-03-27 034221](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/8adc691d-1145-406c-a30e-eb3d8b3cfc1a)
 
 ### Functional Testing
 
-* Nav links
-* Footer links
-* Click answer function
-* Results display
+* Run program button.
+* User input: rock, paper, scissors.
+* User input: yes, no.
 
 Description                                                   |Action                                            |Expected Result                                                                                                                                                                                                                                                              |Pass/Fail
 --------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------|----------------------------------
-Test nav links got to correct pages                           |Click on nav links                                |Home-> index.html; Game Area-> game.html                 |Pass
-Test footer links go to correct pages in new tab              |Click on link                                     |Facebook-> <https://www.facebook.com>;                   |Pass
-.                                                             |.                                                 |Instagram-><https://www.instagram.com>;                  |.
-.                                                             |.                                                 |Twitter(X)-><https://www.twitter.com>;                   |.
-.                                                             |.                                                 |Threads-><https://www.threads.com>                       |.
-Test buttons turn red/green when                              |Click on option buttons                           |Button lights red of incorrect and green if correct      |Pass
-clicked on                                                    |.                                                 |.                                                        |.
-Test 1.5sec delay after answer is chosen                      |Click on option buttons                           |1.5sec delay after the button is clicked on              |Pass
-Test next question appears after answer is chosen and 1.5sec  |Click on option buttons                           |The button lights red/green 1.5sec delay passes and      |Pass
-delay                                                         |.                                                 |the next question is displayed                           |. 
-Test results are displayed at the end of the quiz             |Complete quiz on clicking an option to the last   |The results are displayed at the bottom of the screen    |Pass
-.                                                             |question                                          |based on how many questions were answered correctly      |.
+Test the 'run program' button runs the program each time      |Click on 'run program' button                     |Program runs and starts the game                         |Pass
+Test the user input for rock, paper and scissors              |User types in rock, paper or scissors in lowercase|If the input is not one of the three option, a loop      |Pass
+                                 -                            |                    -                             |notifies the user of  the error and asks the user to     |         -
+                                 -                            |                    -                             |enter valid input.  Once the computer chooses it's input |         -
+                                 -                            |                    -                             |the game loop determines a tie, win or loss for the user |         -
+                                 -                            |                    -                             |and computer and writes the sore for each round.         |         -
+Test the user input for yes, no                               |User types in yes or no when prompted in lowercase|If the input is correct, yes continues the game and no   |Pass
+                                 -                            |                    -                             |ends the game. If the input is incorrcet, the user is    |         - 
+                                 -                            |                    -                             |notified of the error and prompted to enter valid input. |         -
+                                 -                            |                    -                             |The loop repeats until valid input is entered.           |         -
+                                                           
+
 
 ### Validator Testing
 
