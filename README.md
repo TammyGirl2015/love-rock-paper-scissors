@@ -85,14 +85,14 @@ Description                                                   |Action           
 --------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------|----------------------------------
 Test the 'run program' button runs the program each time      |Click on 'run program' button                     |Program runs and starts the game                         |Pass
 Test the user input for rock, paper and scissors              |User types in rock, paper or scissors in lowercase|If the input is not one of the three option, a loop      |Pass
-                                 -                            |                    -                             |notifies the user of  the error and asks the user to     |         -
-                                 -                            |                    -                             |enter valid input.  Once the computer chooses it's input |         -
-                                 -                            |                    -                             |the game loop determines a tie, win or loss for the user |         -
-                                 -                            |                    -                             |and computer and writes the sore for each round.         |         -
+                                                              |                                                  |notifies the user of  the error and asks the user to     |          
+                                                              |                                                  |enter valid input.  Once the computer chooses it's input |          
+                                                              |                                                  |the game loop determines a tie, win or loss for the user |          
+                                                              |                                                  |and computer and writes the sore for each round.         |          
 Test the user input for yes, no                               |User types in yes or no when prompted in lowercase|If the input is correct, yes continues the game and no   |Pass
-                                 -                            |                    -                             |ends the game. If the input is incorrcet, the user is    |         - 
-                                 -                            |                    -                             |notified of the error and prompted to enter valid input. |         -
-                                 -                            |                    -                             |The loop repeats until valid input is entered.           |         -
+                                                              |                                                  |ends the game. If the input is incorrcet, the user is    |           
+                                                              |                                                  |notified of the error and prompted to enter valid input. |          
+                                                              |                                                  |The loop repeats until valid input is entered.           |          
                                                            
 
 
