@@ -49,7 +49,7 @@ def game():
                 Fore.BLUE +
                 "Enter your move (rock 🪨 , paper 🗒 ,"
                 "scissors ✂ ):\n "
-                ).lower()
+                )
             print(Style.RESET_ALL)
 
             # Validate player's input
@@ -63,7 +63,7 @@ def game():
                 player = input(
                     "Enter your move (rock 🪨 , paper 🗒 ,"
                     "scissors ✂ ): "
-                    ).lower()
+                    )
 
             if player == computer:
                 print(Fore.MAGENTA + "It's a tie.")
