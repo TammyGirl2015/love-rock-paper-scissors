@@ -1,5 +1,15 @@
 # LOVE-ROCK-PAPER-SCISSORS
 
+## Welcome to my version of rock-paper-scissors. It is played in the tradiitonal way except it is a human againsta  computer. I had much fun learning to do this and despite some setbacks, i hope you enjoy the program. 
+
+## PREREQUISITES
+To be able to run the program, the user is required to have the Heroku App as it runs from a terminal in the application.
+
+### How to install Heroku:
+* Open your browser and type in Heroku.
+* Follow the prompts to set up your account.
+* Once your account is set up, you can open the deployment link and as Heroku is now installed in your compuetr, the program will run.
+
 ## GAMEPLAY
 
 Love-Rock-Paper-Scissors is a game commonly played by 2 people. It can be played as in this case, by a person and a computer as random input is what is required. 
@@ -36,81 +46,28 @@ The image below is a flowchart that displays the basic functionality of the gqme
 * The program also makes use of emojis for a fun experience.
 
 ## TECHNOLOGIES
+Python is used as the main language for this project. 
 
-* JavaScript
-  * JavaScript was used to create the functions to action the HTML code.
-* HTML
-  * HTML was used to create the structure of the pages.
-* CSS
-  * The website was styled using custom CSS.
-* Codeanywhere
-  * Codeanywhere IDE was used to develop the website
-* GitHub
-  * The source code is hosted on GitHub and the site was deployed using Git Pages
-* Git
-  * Git was used to commit and push code during the development of the website
-* Font Awesome
-  * Icons from <https://fontawesome.com/> were used for the social media links in the footer section and the favicon.
-* Favicon
-  * The favicon was created at <https://favicon.io/favicon-converter/>
-  
 ## TESTING
 
-### Responsiveness
+### Input validation
 
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards in <https://ui.dev/amiresponsive>, on Chrome and Microsoft Edge browsers.
+* The user is prompted twice: once to enter either rock, paper or scissors and the second time to enter yes or no.
+* For both requests, the user is to type their response in lowercase. This is written in the instructions.
+* If the user enters any input aside from the provided choices, a loop will run that first notifies the user that invalid input was entered and then requests the user to enter valid input.
+* This loop repeats the notification until valid input is entered.
 
-![Screenshot 2024-02-20 094146](https://github.com/TammyGirl2015/Quizzed/assets/148330702/b91848c4-5f67-4667-bf8a-8483a639305d)
+A screenshot below is attached to display this in both instances.
 
-Steps to test:
+![Screenshot 2024-03-27 071240](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/34f9e7f5-523c-4e57-a211-f53ba5d2f2c5)
 
-1. Open browser and navigate to <https://tammygirl2015.github.io/Quizzed/>
-2. Open the developer tools (right click and inspect)
-3. Set to responsive and decrease width to 320px
-4. Click and drag the responsive window to maximum width
+![Screenshot 2024-03-27 071327](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/e4d4bc94-5bd0-45ec-b5a0-ecc222ef8d43)
 
-Expected:
+### Code Validation
+The code was run through CI Python Linter. There were no errors at the time of deployment.
+The image below displays this.
 
-Website is responsive on all screen sizes and no images are pixelated or stretched.
-No horizontal scroll is present.
-No elements overlap.
 
-Actual:
-
-Website behaved as expected.
-
-The website was also opened on the following devices and no responsive issues were seen:
-
-* iPhone 11
-* iPhone 13
-* iPhone 14
-* Honor Magic 5 Lite
-* Samsung Galaxy S9 Plus
-* Samsung Galaxy Tablet
-
-### Accessibility
-
-Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing of the deployed website to check for and aid accessibility testing.
-
-![Screenshot 2024-02-20 025919](https://github.com/TammyGirl2015/Quizzed/assets/148330702/0e887680-8ed8-48f7-8024-d89720d00c18)
-
-![Screenshot 2024-02-20 030038](https://github.com/TammyGirl2015/Quizzed/assets/148330702/06a59ac4-e5a5-4f10-a5ca-142bbacdf990)
-
-* All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
-* Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
-* Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-* All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-* All non textual content has alternative text or titles so descriptions are read out to screen readers
-* HTML page lang attribute has been set to English
-* Aria properties have been implemented correctly
-
-### Lighthouse Testing
-
-* Lighthouse testing was conducted on both desktop and mobile as shown below respectively
-
-![Screenshot 2024-02-20 103302](https://github.com/TammyGirl2015/Quizzed/assets/148330702/12b5e845-289a-45bb-98ed-522f206a3a85)
-
-![Screenshot 2024-02-20 103426](https://github.com/TammyGirl2015/Quizzed/assets/148330702/d5d157ee-f7ce-4580-8398-c3a17fdba0cc)
 
 ### Functional Testing
 
