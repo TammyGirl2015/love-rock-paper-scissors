@@ -94,51 +94,28 @@ Test the user input for yes, no                               |User types in yes
 .                                                             |.                                                 |notified of the error and prompted to enter valid input. |. 
 .                                                             |.                                                 |The loop repeats until valid input is entered.           |.
 
-                                                           
-### Validator Testing
-
-* HTML
-  * Both index.html and game.html pages respectively
-
-![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/ecc3ecea-2a1e-44c6-aa7c-3b6b71a4b70d)
-
-![Screenshot 2024-02-20 085550](https://github.com/TammyGirl2015/Quizzed/assets/148330702/f3b03e05-5ba6-48c4-8c22-012ba2397dec)
-
-
-* CSS
-  
-![Screenshot 2024-02-20 090834](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5833d2eb-71fa-4ec5-955b-26c6c93edaf9)
-
 ### Unfixed Bugs
 
-* Some info indicated in html and css code, namely trailing slashes on void elements to be corrected at a later date.
-
-![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/e718959d-9a70-4e0b-9634-32adab883cf1)
-
-![Screenshot 2024-02-20 085550](https://github.com/TammyGirl2015/Quizzed/assets/148330702/b3fd7216-45d0-44b6-9aa3-ec118f9293a2)
+There are no unfixed bugs at this time. I will mention the fact that i had to delete my original repository and create a new one due to the fact that all my commits were lost. The second time around, i amde a number  of commits before adding the creds.json file and while i followed the correct steps to hide the sensitive info, my repsoitory would not allow me to commit any changes and thus i had to do a hard reset and a numebr of commits were lost. 
+Despite this, everything that has been done in the repository however, has been committed. 
 
 ### Version Control
 
-The site was created using the Codeanywhere code editor and pushed to github to the remote repository ‘Vairgo’.
+The site was created using the Code Institute, Codeanywhere code editor template and pushed to github to the remote repository ‘love-rock-paper-scissors’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
-```git add . <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+```git add .``` - This command was used to add the file(s) to the staging area before they are committed.
 
 ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
-### Deployment to Github Pages
+### Deployment to Heroku App
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
-  * In the GitHub repository, navigate to the Settings tab
-  * From the menu on left select 'Pages'
-  * From the source section drop-down menu, select the Branch: main
-  * Click 'Save'
-  * A live link will be displayed in a green banner when published successfully.
-
-The live link can be found here - <https://tammygirl2015.github.io/Quizzed/>
+* The site was deployed to Heroku App.
+* Installation for this can be found in the prerequisites section.
+* The live link can be found here - https://love-rock-paper-scissors-ca1fc0ed705e.herokuapp.com/
 
 ### Clone the Repository Code Locally
 
