@@ -111,12 +111,24 @@ The following git commands were used throughout development to push code to the 
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
-```pip3 freeze``` - This was used to install necessary packages i.e. colorama
+```pip3 freeze > requirements.txt``` - This was used to install necessary packages i.e. colorama.
 
+I imported random for the computer to be able to choose input randomly.
+I imported colorama to be able to add color to the font as seen in the program.
+
+### CREDS.JSON
+
+* This was added with the Google Drive API. 
+* The key was added to the creds.json file in the repository.
+* This was then hidden in the gitignore file.
+   
 ### Deployment to Heroku App
 
 * The site was deployed to Heroku App.
-* Installation for this can be found in the prerequisites section.
+* I signed up to Heroku and followed the prompts to set up a new project.
+* I added the necessary buildpacks, namely Python and Node.
+* I also added the needed creds.json key.
+* Installation for Heroku for the user can be found in the prerequisites section.
 * The live link can be found here - https://love-rock-paper-scissors-ca1fc0ed705e.herokuapp.com/
 
 ## CREDITS
