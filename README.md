@@ -1,91 +1,40 @@
 # LOVE-ROCK-PAPER-SCISSORS
 
+## GAMEPLAY
+
 Love-Rock-Paper-Scissors is a game commonly played by 2 people. It can be played as in this case, by a person and a computer as random input is what is required. 
-The game is played as follows: The user selects rock, paper or scissors as an option when prompted and the computer will also randomly select one of the three choices. 
-If the user input is invalid, the user will be prompted to enter valid input. 
-Once a valid selection is made, the rules are as follows:
-If the computer and user chose the same option, then it is a tie.
-Rock smashes scissors; scissors cuts apper, paper covers rock.
-The winner is chosen as per the above rules.
-A score is shown at the end of each round: the winner receives 1 point, the loser receives no points for the round and if it is a tie then both the user and the computer do not receive any points.
-The winner of the series is whoever wins 3 rounds first. At the end of the series, the winner is displayed.
-The user is then prompted to choose wether they will continue the game or not. 
-If the user input is invalid, the user will be prompted to enter valid input.
-Once a valid selection is made, if the user chooses no, the game ends and a thank you message is displayed.
-If the user chooses to continue playing, the game prompts the user to re-start by inputing a selection of either rock, paper or scissors, and the game continues as at the start.
+
+### The game is played as follows: 
+
+-The user selects rock, paper or scissors as an option when prompted and the computer will also randomly select one of the three choices. 
+-If the user input is invalid, the user will be prompted to enter valid input. 
+-Once a valid selection is made, the rules are as follows:
+-If the computer and user chose the same option, then it is a tie.
+-Rock smashes scissors; scissors cuts apper, paper covers rock.
+-The winner is chosen as per the above rules.
+-A score is shown at the end of each round: the winner receives 1 point, the loser receives no points for the round and if it is a tie then both the user and the computer do not receive any points.
+-The winner of the series is whoever wins 3 rounds first. At the end of the series, the winner is displayed.
+-The user is then prompted to choose wether they will continue the game or not. 
+-If the user input is invalid, the user will be prompted to enter valid input.
+-Once a valid selection is made, if the user chooses no, the game ends and a thank you message is displayed.
+-If the user chooses to continue playing, the game prompts the user to re-start by inputing a selection of either rock, paper or scissors, and the game continues as at the start.
 
 The image below is what the game looks like in the terminal.
 
 ![love rock paper scissors heroku terminal screenshot](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/d842a326-b495-448c-a91a-4c70606d92cf)
 
 
-## FEATURES
+## FLOWCHART
+The image below is a flowchart that displays the basic functionality of the gqme. The flowchart was created first and was the basis for the project and was built on and expanded to create the project as it currently is.
 
-### SITE WIDE
-* Logo
-  * The logo is an image of a brain which goes hand in hand with the subject of general knowledge. Quizzes are in my opinion, brain games. The logo appears at the top, center of the page and is shown across both pages.
- 
-![Screenshot 2024-02-19 160049](https://github.com/TammyGirl2015/Quizzed/assets/148330702/602f0b92-a5e9-4c92-96c8-82f7f326dc9f)
+![Screenshot 2024-03-26 230746](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/0e107e3e-cb27-4182-ab70-349fe7d0441f)
 
-* Navigation Menu
-  * Contains links to the Home and Game Area pages. It is responsive on all devices.
-    * The navigation allows users to navigate between the pages easily within the site on any device.
-
-![Screenshot 2024-02-20 025116](https://github.com/TammyGirl2015/Quizzed/assets/148330702/74b57bcc-bf31-4017-96c5-1d0f6a323112)
-
-* Footer
-  * This has links to social media websites that open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader by the use of aria-labels.
-
-![Screenshot 2024-02-19 135157](https://github.com/TammyGirl2015/Quizzed/assets/148330702/601ee4a4-b3b4-4901-a85a-4e7b8c6f8e6e)
-
-* Favicon
-  * The favicon will display as an image on the left in the page window tab next to the page name. The favicon appears when the user is on any page.
-  * The favicon makes it easy for users to identify and open the website if they have many tabs open on their screen.
-
-![Screenshot 2024-02-19 140331](https://github.com/TammyGirl2015/Quizzed/assets/148330702/4cd478fe-8340-4e01-b995-8147962c74b5)
-
-### HOME PAGE
-
-* Welcome Paragraph
-  * This paragraph welcomes the user to the game and let's them know what is in store.
-
-* Instruction Paragraph
-  * This paragraph explains to the user how to play the game.
-   
-* Game Area Link
-  * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is displayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
- 
-![Screenshot 2024-02-20 100926](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5e017cab-271e-4a10-bfe0-eedacf0360eb)
 
 ### GAME AREA PAGE
 
-* Game area
-  * The game area has the page displays the question in bold, large font which is easily readeable for the user.
-  * The buttons with the answer choices are large to allow for an easy reading of the choices and ample space to click on the answer.
-  * The questions are numbered from 1 - 20.
-  * On clicking each question, the answer will turn red if it is incorrect and green if it is correct.
-  * On clicking each question, the next question will display after a question is answered.
-  * At the end of the quiz, the score will be displayed at the bottom of the page.
-
-![Screenshot 2024-02-20 093905](https://github.com/TammyGirl2015/Quizzed/assets/148330702/3ef8cc92-7304-4c73-847f-6fa4fcbfceac)
-
-### WIREFRAME
-
-* This was the basis for the basic design of the site and the general layout was followed to produce the finished outcome.
-
-  ![Screenshot 2024-02-20 093558](https://github.com/TammyGirl2015/Quizzed/assets/148330702/6abb3b92-8649-40f0-9acf-5bd879184218)
-
-![Screenshot 2024-02-20 093619](https://github.com/TammyGirl2015/Quizzed/assets/148330702/fbcbed8e-67a0-4f82-a487-ac6139e51a2b)
-
-### EXISTING FEATURES
-
-* The design is responsive on mobile, tablet and laptop displays.
-
-### FEATURES TO IMPLEMENT
-
-* I would like to add some more styling to the website like a new background and a different font. Currently the focus is on getting the code to simply function.
-* I would like to add different quiz subjects so the user can choose between general knowledge, music, film, sports etc.
-* A form would be a nice addition to have the user give us their email address so that whenever there are new quizzes available they can receive an alert.
+-The game area page displays a welcome message the instructions on how to play as discussed above. The user can then type in their choice and the game begins. 
+-The interface uses a variety of colors to make the site appealing as opposed to a black and white treminal. 
+-The program also makes use of emojis for a fun experience.
 
 ## TECHNOLOGIES
 
