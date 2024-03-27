@@ -5,19 +5,18 @@
 Love-Rock-Paper-Scissors is a game commonly played by 2 people. It can be played as in this case, by a person and a computer as random input is what is required. 
 
 ### The game is played as follows: 
-
--The user selects rock, paper or scissors as an option when prompted and the computer will also randomly select one of the three choices. 
--If the user input is invalid, the user will be prompted to enter valid input. 
--Once a valid selection is made, the rules are as follows:
--If the computer and user chose the same option, then it is a tie.
--Rock smashes scissors; scissors cuts apper, paper covers rock.
--The winner is chosen as per the above rules.
--A score is shown at the end of each round: the winner receives 1 point, the loser receives no points for the round and if it is a tie then both the user and the computer do not receive any points.
--The winner of the series is whoever wins 3 rounds first. At the end of the series, the winner is displayed.
--The user is then prompted to choose wether they will continue the game or not. 
--If the user input is invalid, the user will be prompted to enter valid input.
--Once a valid selection is made, if the user chooses no, the game ends and a thank you message is displayed.
--If the user chooses to continue playing, the game prompts the user to re-start by inputing a selection of either rock, paper or scissors, and the game continues as at the start.
+* The user selects rock, paper or scissors as an option when prompted and the computer will also randomly select one of the three choices.
+* If the user input is invalid, the user will be prompted to enter valid input. 
+* Once a valid selection is made, the rules are as follows:
+* If the computer and user chose the same option, then it is a tie.
+* Rock smashes scissors; scissors cuts apper, paper covers rock.
+* The winner is chosen as per the above rules.
+* A score is shown at the end of each round: the winner receives 1 point, the loser receives no points for the round and if it is a tie then both the user and the computer do not receive any points.
+* The winner of the series is whoever wins 3 rounds first. At the end of the series, the winner is displayed.
+* The user is then prompted to choose wether they will continue the game or not. 
+* If the user input is invalid, the user will be prompted to enter valid input.
+* Once a valid selection is made, if the user chooses no, the game ends and a thank you message is displayed.
+* If the user chooses to continue playing, the game prompts the user to re-start by inputing a selection of either rock, paper or scissors, and the game continues as at the start.
 
 The image below is what the game looks like in the terminal.
 
@@ -32,9 +31,9 @@ The image below is a flowchart that displays the basic functionality of the gqme
 
 ### GAME AREA PAGE
 
--The game area page displays a welcome message the instructions on how to play as discussed above. The user can then type in their choice and the game begins. 
--The interface uses a variety of colors to make the site appealing as opposed to a black and white treminal. 
--The program also makes use of emojis for a fun experience.
+* The game area page displays a welcome message the instructions on how to play as discussed above. The user can then type in their choice and the game begins. 
+* The interface uses a variety of colors to make the site appealing as opposed to a black and white treminal. 
+* The program also makes use of emojis for a fun experience.
 
 ## TECHNOLOGIES
 
