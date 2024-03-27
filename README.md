@@ -1,6 +1,6 @@
 # LOVE-ROCK-PAPER-SCISSORS
 
-## Welcome to my version of rock-paper-scissors. It is played in the tradiitonal way except it is a human againsta  computer. I had much fun learning to do this and despite some setbacks, i hope you enjoy the program. 
+## Welcome to my version of rock-paper-scissors. It is played in the tradiitonal way except it is a human against a  computer. I had much fun learning to do this and despite some setbacks, i hope you enjoy the program. 
 
 ## PREREQUISITES
 To be able to run the program, the user is required to have the Heroku App as it runs from a terminal in the application.
@@ -67,7 +67,13 @@ A screenshot below is attached to display this in both instances.
 The code was run through CI Python Linter. There were no errors at the time of deployment.
 The image below displays this.
 
+![Screenshot 2024-03-27 034221](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/8adc691d-1145-406c-a30e-eb3d8b3cfc1a)
 
+![Screenshot 2024-03-27 034211](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/1896634f-0fed-4e5d-bda8-a5c5d1f11dfb)
+
+![Screenshot 2024-03-27 034159](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/e5e36b03-114e-40e9-b38e-249ae0736b3b)
+
+![Screenshot 2024-03-27 034148](https://github.com/TammyGirl2015/love-rock-paper-scissors/assets/148330702/1b1332f8-7877-445c-8c40-1bce36bbcdca)
 
 ### Functional Testing
 
