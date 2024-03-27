@@ -111,39 +111,41 @@ The following git commands were used throughout development to push code to the 
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
+```pip3 freeze``` - This was used to install necessary packages i.e. colorama
+
 ### Deployment to Heroku App
 
 * The site was deployed to Heroku App.
 * Installation for this can be found in the prerequisites section.
 * The live link can be found here - https://love-rock-paper-scissors-ca1fc0ed705e.herokuapp.com/
 
-### Clone the Repository Code Locally
-
-Navigate to the GitHub Repository you want to clone to use locally:
-
-* Click on the code drop down button
-* Click on HTTPS
-* Copy the repository link to the clipboard
-* Open your IDE of choice (git must be installed for the next steps)
-* Type git clone copied-git-url into the IDE terminal
-
-The project will now have been cloned on your local machine for use.
-
 ## CREDITS
 
-### Page Name
+### Program Name
 
-* The page name was initially Trivia Time however at some point during the making of the site, i didn't feel that the questions were trivia but rather more general knowledge based hence the change to: Quizzed.
+* The page name was inspired by the projects i have done thus far with Code Institute as they preface them with the word 'love'. I had the inkling that they likely do this to kinder within them a love for the task ahead and thus the name love-rock-paper-scissors.
 
 ### Format
 
-* The format of the website is credited to looking at the general layout of several quiz pages online and i had a general idea of the format of the quiz i wanted to create and ultimately went with that.
-* The READme is a template from a previous project of mine and adjusted to suit the project.
-
+* The welcome message and instructions are at the beginning of the program.
+* The user then inputs their choice. The computer does as well.
+* A winner is determined based on the rules and assuming input is valid.
+* The first to win three rounds wins the series.
+* The game loop continues to run if i. input is invalid and ii. neither the computer or the user wins three rounds.
+  
 ### Content
 
-* Content is credited to myself for text input with the answers to the 'made up' questions and some of the questions being taken from Google.
-
+* Content is credited to myself. I researched using some AI namely Phind, however, this was to check for syntax and support with ensuring my code was correct which i also used the terminal in github for. Also when the program was run, it showed any errors in heroku that prevented it from running which i was able to resolve based on the message displayed and when i ran the code through the Linter code validator, it again showed any errors that i was able to correct. All this to say that Phind was not heavily relied on.
+  
 ### Media
 
-* All images used were taken from <https://pexels.com>
+* Emoji's were taken from https://pypi.org/project/emojis/
+
+### Future Features
+I have not had much thought as to what i might like to add to this aside from some fun *gif's/emoji's* and some *background color* (although i played with this in the project, i found that choice of colors is very small thus limiting the mixing and matching that was possible). I also might likw to play around with the possibility of adding some larger font for a heading although i have not attempted this. 
+
+### Contributions
+I am welcome to ideas of how to improve the project, and would be happy for anyone with ideas to send them through to my email: mtamarie@yahoo.com
+
+### SUMMARY
+This project is a beginners take on python and while i had much fun creating it, i did learn quite a bit and have become alot more confident with it. I would like to shout out my awesome mentor, and by extension all mentors for CI, for taking the time to walk me through the project as needed. I am in awe of them all as i can appreciate that they have lives, families and jobs to attend to and yet make the time. 
